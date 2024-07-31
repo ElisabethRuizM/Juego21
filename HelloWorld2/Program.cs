@@ -4,39 +4,7 @@
     {
         static void Main(string[] args)
         {
-            /*var (valor1, valor2, valor3) = (10, 1, 2);
-            Console.WriteLine("Los valores son " + valor1 + valor2 + valor3);
-            //Operadores relacionales == != >,<, >=, <=
 
-            bool resultado1 = valor1 == valor2;
-            Console.WriteLine("Valor1 es igual que valor2? " + resultado1);
-            bool resultado2 = valor1 != valor2;
-            Console.WriteLine("Valor1 es diferente que valor2? " + resultado2);
-            bool resultado3 = valor1 > valor2;
-            Console.WriteLine("Valor1 es mayor que valor2? " + resultado3);
-            bool resultado4 = valor1 < valor2;
-            Console.WriteLine("Valor1 es menor que valor2? " + resultado4);
-            bool resultado5 = valor1 >= valor2;
-            Console.WriteLine("Valor1 es mayor igual que valor2? " + resultado5);
-            bool resultado6 = valor1 == valor2;
-            Console.WriteLine("Valor1 es menor igual que valor2? " + resultado6);
-
-            Console.WriteLine("Ricardo Perez ID");
-            int altura = 168;
-            int edad = 89;
-            string nombre = "Ricardo Perez";
-            string información = "Nació en Hidalgo. Es estudiante de gastronomía y astronomía";
-            var hooby = "deportista";*/
-
-            //string tarjetaIdentificacion = $"La información de Ricardo Perez es la siguiente. " +
-            // $"Su edad es 89, su altura es 168";
-
-            /*string tarjetaIdentificacion = $"La información de {nombre} es la siguiente.\n" +
-             $"Su edad es {edad}\nSu altura es {altura}\nInformación relevante: {información}\n" +
-             $"Su hobby es: {hooby}";
-            Console.WriteLine(tarjetaIdentificacion);*/
-
-            //Condicional
             int totalJugador = 0;
             int totalDealer = 0;
             string message = "";
@@ -45,18 +13,6 @@
             string respuesta = "";
             bool repetir = true;
             //Blackjack consiste en juntar cartas hasta tener 21 puntos como máximo. Ganas si tienes mayor puntuación que el dealer
-            /*if (totalJugador > totalDealer && totalJugador < 22)
-            {
-                message = "Venciste al dealer. Felicidades";
-            }
-            else if (totalJugador > 21)
-            {
-                message = "Perdiste. Te pasaste de 21";
-            }
-            else { message = "Perdiste contra el dealer. Lo siento"; }
-            Console.WriteLine(message);*/
-
-            //Switch control
             string switchControl = "menú";
             int fichas = 0;
             int fichasJugada = 0;
@@ -88,7 +44,7 @@
                                     }
                                 } while (fichasJugada > fichas);
                                 Console.WriteLine("\nEscribe 21 para jugar 21");
-                                switchControl = Console.ReadLine();//i=i-1; para no aumentar el contador por el menú
+                                switchControl = Console.ReadLine();
                                 break;
                             case "21":
                                 do
